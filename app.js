@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
-import contactsRouter from "./src/app/routes/contact.route";
-import ApiError from "./src/app/api-error";
+import contactsRouter from "./src/app/routes/contact.route.js";
+import ApiError from "./src/app/api-error.js";
 
 const app = express();
 
